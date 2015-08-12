@@ -38,7 +38,7 @@ def breadthFirstSearch(url, numUrls):
             # an error occured while fetching the URL
             print("Cannot access ",url)
         numUrls = numUrls - 1
-    # empty the url repository
+    # empty the URL repository
     urls.clear()
 
 def main():
