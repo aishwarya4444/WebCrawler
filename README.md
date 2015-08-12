@@ -5,7 +5,7 @@ A crawler is a program that starts with a url on the web (ex: http://python.org)
 
 RUNNING THE SCRIPT
 ------------------
-# progName URL numberOfUrlsToBeCrawled
+progName URL numberOfUrlsToBeCrawled
 ./webCrawler.py http://python.org/pypi 4
 
 ERRORS
