@@ -25,7 +25,7 @@ def breadthFirstSearch(url, numUrls):
             html_page = urllib.request.urlopen(url).read()
             # parse the web page
             soup = bs4.BeautifulSoup(html_page,'html.parser')
-            # loop over all the anchr tags in the web page
+            # loop over all the anchor tags in the web page
             for link in soup.find_all('a'):
                 # chop the URL
                 _link = link.get('href')
